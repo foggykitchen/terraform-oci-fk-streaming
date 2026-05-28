@@ -8,6 +8,11 @@ output "stream_pool_name" {
   value       = oci_streaming_stream_pool.this.name
 }
 
+output "stream_pool_endpoint_fqdn" {
+  description = "OCI Streaming stream pool endpoint FQDN."
+  value       = oci_streaming_stream_pool.this.endpoint_fqdn
+}
+
 output "stream_ids" {
   description = "Map of stream logical names to created stream OCIDs."
   value = {
