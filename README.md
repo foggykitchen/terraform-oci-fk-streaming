@@ -2,7 +2,7 @@
 
 This repository contains a reusable **Terraform/OpenTofu module** and focused examples for deploying **Oracle Cloud Infrastructure (OCI) Streaming** stream pools and streams.
 
-It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and is designed to work cleanly with reusable infrastructure modules such as **`terraform-oci-fk-function`**, **`terraform-oci-fk-ons`**, and future event-driven integration components.
+It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/)** and is designed to work cleanly with reusable infrastructure modules such as **`terraform-oci-fk-function`**, **`terraform-oci-fk-ons`**, and future event-driven integration components.
 
 Support expectations are documented in [SUPPORT.md](SUPPORT.md).
 
